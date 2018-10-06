@@ -26,16 +26,16 @@ char subMenu1Lista(void)
 char subMenu11Lista(void)
 {
 	system("CLS");
-    printf("2. Listas simples com vetores\n");
-    printf("3. Listas simples com ponteiros\n");
+    printf("1. Listas simples com vetores\n");
+    printf("2. Listas simples com ponteiros\n");
 	printf("0. Retornar");
     return getch();
 }
 char subMenu12Lista(void)
 {
 	system("CLS");
-    printf("2. Listas duplamente encadeadas com vetores\n");
-    printf("3. Listas duplamente encadeadas com ponteiros\n");
+    printf("1. Listas duplamente encadeadas com vetores\n");
+    printf("2. Listas duplamente encadeadas com ponteiros\n");
 	printf("0. Retornar");
     return getch();
 }
@@ -43,8 +43,8 @@ char subMenu13Lista(void)
 {
 
 	system("CLS");
-    printf("2. Listas circulares com vetores\n");
-    printf("3. Listas circulares com ponteiros\n");
+    printf("1. Listas circulares com vetores\n");
+    printf("2. Listas circulares com ponteiros\n");
 	printf("0. Retornar");
     return getch();
 }

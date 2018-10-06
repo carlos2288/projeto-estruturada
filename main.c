@@ -12,7 +12,6 @@
 void main()
 {
 	setlocale(LC_ALL,"Portuguese");
-	printf("iai troxas\n")
 	char vMenuPrincipal;
 	char vSubMenu1;
 	char vSubmenu2;
@@ -50,14 +49,13 @@ void main()
                         }
                         switch(vSubmenu2)
                         {
+                        
                         case '1':
-                            break;
-                        case '2':
                             system("cls");
                             printf("Em desenvolvimento\n");
                             system("PAUSE");
                             break;
-                        case '3':
+                        case '2':
                             // SUBMENU 113 LISTA SIMPLES ENCADEADA POR PONTEIROS
                             while(1)
                             {
@@ -169,14 +167,14 @@ void main()
                                     break;
                                 default:
                                     system("cls");
-                                    printf("digite um valor vÃ¡lido\n");
+                                    printf("digite um valor válido\n");
                                     getch();
                                 }
                             }
                             break;
                         default:
                             system("cls");
-                            printf("Digite um valor vÃ¡lido\n");
+                            printf("Digite um valor válido\n");
                             system("pause");
                         }
                     }
@@ -225,7 +223,7 @@ void main()
                                         break;
                                     default:
                                         system("cls");
-                                        printf("digite um valor vÃ¡lido\n");
+                                        printf("digite um valor válido\n");
                                         getch();
 
                                     }
@@ -233,7 +231,7 @@ void main()
                                 break;
                             default:
                                 system("cls");
-                                printf("digite um valor vÃ¡lido\n");
+                                printf("digite um valor válido\n");
                                 getch();
                         }
                     }
@@ -246,7 +244,7 @@ void main()
                 	break;
                 default:
                     system("cls");
-                    printf("digite um valor vÃ¡lido\n");
+                    printf("digite um valor válido\n");
                     system("pause");
                 }
             }

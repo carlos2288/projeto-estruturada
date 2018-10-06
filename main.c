@@ -12,6 +12,7 @@
 void main()
 {
 	setlocale(LC_ALL,"Portuguese");
+	printf("iai troxas\n")
 	char vMenuPrincipal;
 	char vSubMenu1;
 	char vSubmenu2;
@@ -19,7 +20,7 @@ void main()
 	// menu principal
 	while(1)
     {
-		printf("pão\n");
+		printf("pÃ£o\n");
         vMenuPrincipal = menuPrincipal();
         if(vMenuPrincipal == '0')
         {
@@ -102,7 +103,7 @@ void main()
                                     break;*/
                                 default:
                                     system("cls");
-                                    printf("digite um lavor válido\n");
+                                    printf("digite um lavor vÃ¡lido\n");
                                     system("pause");
                                     break;
 
@@ -111,7 +112,7 @@ void main()
                             break;
                         default:
                             system("cls");
-                            printf("digite um lavor válido\n");
+                            printf("digite um lavor vÃ¡lido\n");
                             system("pause");
                         }
                         }
@@ -168,14 +169,14 @@ void main()
                                     break;
                                 default:
                                     system("cls");
-                                    printf("digite um valor válido\n");
+                                    printf("digite um valor vÃ¡lido\n");
                                     getch();
                                 }
                             }
                             break;
                         default:
                             system("cls");
-                            printf("Digite um valor válido\n");
+                            printf("Digite um valor vÃ¡lido\n");
                             system("pause");
                         }
                     }
@@ -224,7 +225,7 @@ void main()
                                         break;
                                     default:
                                         system("cls");
-                                        printf("digite um valor válido\n");
+                                        printf("digite um valor vÃ¡lido\n");
                                         getch();
 
                                     }
@@ -232,7 +233,7 @@ void main()
                                 break;
                             default:
                                 system("cls");
-                                printf("digite um valor válido\n");
+                                printf("digite um valor vÃ¡lido\n");
                                 getch();
                         }
                     }
@@ -245,7 +246,7 @@ void main()
                 	break;
                 default:
                     system("cls");
-                    printf("digite um valor válido\n");
+                    printf("digite um valor vÃ¡lido\n");
                     system("pause");
                 }
             }
@@ -273,7 +274,7 @@ void main()
                    break;
                default:
                     system("cls");
-                    printf("digite um valor válido\n");
+                    printf("digite um valor vÃ¡lido\n");
                     system("pause");
 
                }
@@ -311,7 +312,7 @@ void main()
                     break;
                default:
                    system("cls");
-                    printf("digite um valor válido\n");
+                    printf("digite um valor vÃ¡lido\n");
                     system("pause");
 
                }
@@ -319,7 +320,7 @@ void main()
             break;
         default:
             system("cls");
-            printf("digite um valor válido\n");
+            printf("digite um valor vÃ¡lido\n");
             getch();
         }
     }

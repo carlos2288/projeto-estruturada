@@ -19,7 +19,7 @@ void main()
 	// menu principal
 	while(1)
     {
-    	printf("pão\n");
+		printf("pão\n");
         vMenuPrincipal = menuPrincipal();
         if(vMenuPrincipal == '0')
         {
